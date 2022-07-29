@@ -2,6 +2,6 @@ import { Pool } from 'pg';
 
 const connectionString = '';
 
-const DB = new Pool({ connectionString });
+const db = new Pool({ connectionString });
 
-export default DB;
+export default db;
